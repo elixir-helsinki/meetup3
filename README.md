@@ -1,2 +1,4 @@
-# meetup3
-Sample project for meetup #3.
+Meetup3
+=======
+
+** TODO: Add description **
