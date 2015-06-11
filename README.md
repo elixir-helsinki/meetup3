@@ -24,6 +24,7 @@ Here are some useful modules you might want to check out:
   * http://elixir-lang.org/docs/stable/elixir/File.html
   * http://elixir-lang.org/docs/stable/elixir/Stream.html
   * http://elixir-lang.org/docs/stable/elixir/String.html
+  * http://elixir-lang.org/docs/stable/elixir/Task.html
 
 For HTTP client I'd suggest you to try out these:
   * https://github.com/edgurgel/httpoison
