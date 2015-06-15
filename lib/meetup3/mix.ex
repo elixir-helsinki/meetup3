@@ -4,7 +4,7 @@ defmodule Mix.Tasks.Meetup3 do
   @shortdoc "meetup3 example task"
   
   def run(_) do
-    Application.ensure_all_started(:hackney)
+    #Application.ensure_all_started(:hackney)
     
     # :hackney_pool.start_pool(:default, [])
     # :hackney_pool.set_max_connections(:default, 5000)
@@ -34,7 +34,7 @@ defmodule Mix.Tasks.Meetup3 do
     |> Enum.each(
       fn {{server, count}, idx} ->
         idx = to_string(idx)
-        IO.puts "#{String.rjust(idx, 2)}. #{inspect server} (#{count})"
+        IO.puts "#{String.rjust(idx, 3)}. #{inspect server} (#{count})"
       end)
 
     IO.puts ""
